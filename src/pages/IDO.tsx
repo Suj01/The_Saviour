@@ -2,7 +2,7 @@
 import timer from '../assets/Timer.png'
 import copy from '../assets/copy-icon.png'
 import idoBgImage from "../assets/Hero-image-5.png"
-const IDO = () => {
+export const IDO = () => {
   return (
     <>
     <div className="bg-cover p-10" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${idoBgImage})`}}>
@@ -128,4 +128,3 @@ const IDO = () => {
   );
 };
 
-export { IDO };

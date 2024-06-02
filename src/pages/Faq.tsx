@@ -1,17 +1,21 @@
 
 
-
 import React, { useState } from "react";
 import faqImg from "../assets/FAQ-image.png";
 
-const Faq = () => {
-  const [open, setOpen] = useState(null);
+interface FaqItem {
+  question: string;
+  answer: string;
+}
 
-  const toggle = (index) => {
+const Faq: React.FC = () => {
+  const [open, setOpen] = useState<number | null>(null);
+
+  const toggle = (index: number) => {
     setOpen(open === index ? null : index);
   };
 
-  const faqData = [
+  const faqData: FaqItem[] = [
     { question: "Why choose 'Savior'?", answer: "Answer to why choose 'Savior'." },
     { question: "Why is the IDO duration so long?", answer: "Answer to why the IDO duration is so long." },
     { question: "When will trading go live?", answer: "Answer to when trading will go live." },
