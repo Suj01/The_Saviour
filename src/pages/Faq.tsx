@@ -30,8 +30,8 @@ const Faq: React.FC = () => {
         className="w-[503px]  h-[503px] m-auto ml-[67px] mt-[109px]"
       />
       <div className="flex flex-col items-center lg:w-[640px] p-4 lg:p-0 mr-[188px] mt-[64px]">
-        <h1 className="text-[#ED0137] text-[44px] font-normal text-center mb-4">FAQ</h1>
-        <div className="w-[640px] mt-[64px]">
+        <h1 className="text-[#ED0137] text-[44px] font-normal text-center mb-4 font-shojumaru">FAQ</h1>
+        <div className="w-[640px] mt-[64px] font-zcoolkuaile">
           {faqData.map((item, index) => (
             <div
               key={index}

@@ -10,18 +10,18 @@ const Tokenomics: React.FC = () => {
         className="h-[706px] bg-black"
         style={{ backgroundImage: `url(${tokenBgImage})` }}
       >
-        <h1 className="text-[#ED0137] text-center text-[44px] py-[60px] ">
+        <h1 className="text-[#ED0137] text-center text-[44px] py-[60px] font-shojumaru">
           TOKENOMICS
         </h1>
         <div className="flex">
           <div className="mt-[34px]">
             <div className="relative w-[244px] h-[70px] bg-[#ED0137] rounded-3xl flex items-center justify-center ml-[168px] mb-[-35px] top- z-10">
-              <p className="text-[18px] text-white font-normal text-center">
+              <p className="text-[18px] text-white font-normal text-center font-zcoolkuaile">
                 Token Details
               </p>
             </div>
             <div className="relative w-[412px] h-[306px] border-2 border-rose-500 rounded-3xl ml-[90px]">
-              <div className="grid grid-cols-2 gap-6 text-white p-10 ml-[59px] mt-8">
+              <div className="grid grid-cols-2 gap-6 text-white p-10 ml-[59px] mt-8 font-zcoolkuaile">
                 <div>
                   <div className="py-2 text-[20px] font-normal">Name</div>
                   <div className="py-2 text-[20px] font-normal">Symbol</div>

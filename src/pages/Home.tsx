@@ -20,7 +20,7 @@ const Home: React.FC = () => {
               alt="logo"
               className="w-[116px] h-[117px] mt-[27px] ml-[88px]"
             />
-            <p className="text-[32px] font-normal leading-8 text-white">
+            <p className="text-[32px] font-normal leading-8 text-white font-zcoolkuaile">
               Saviour
             </p>
           </div>
@@ -28,11 +28,11 @@ const Home: React.FC = () => {
             <Navbar />
             {/* <AllRoutes /> */}
           </div>
-          <button className="w-[127px] h-[38px] mr-[90px] rounded-3xl text-white bg-gradient-to-r from-[#ED0137] to-[#F05733]">
+          <button className="w-[127px] h-[38px] mr-[90px] rounded-3xl text-[12px] text-white bg-gradient-to-r from-[#ED0137] to-[#F05733] font-poppins">
             Connect wallet
           </button>
         </div>
-        <p className="text-[45px] text-[#FBF6F6] loading-[54px] font-normal mt-[178px] ml-[123px]  text-center">
+        <p className="text-[45px] text-[#FBF6F6] loading-[54px] font-normal mt-[178px] ml-[123px]  text-center font-shojumaru" >
           Where Blockchain Heroes Thrive, Rescuing <br />
           Dreams, Elevating Fortunes.
         </p>

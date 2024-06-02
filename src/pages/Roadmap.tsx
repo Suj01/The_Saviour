@@ -11,9 +11,9 @@ const Roadmap: React.FC = () => {
     <>
       <div
         className="h-[716px] bg-cover opacity-100 bg-black "
-        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${roadmapBgImage})` }}
+        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(${roadmapBgImage})` }}
       >
-        <h1 className="text-[44px] font-normal text-[#ED0137] text-center pt-6 py-[64px]">
+        <h1 className="text-[44px] font-normal text-[#ED0137] text-center pt-6 py-[64px] font-shojumaru">
           ROAD MAP
         </h1>
         <div className="w-[1160px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-6 ml-[215px] mt-[50px]">

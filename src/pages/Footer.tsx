@@ -10,11 +10,11 @@ const Footer: React.FC = () => {
   return (
     <div className='h-[428px] bg-black flex flex-col justify-center items-center gap-4'>
       <img src={footerImg} alt='FooterImg' className='w-[200px] h-[183px]' />
-      <h1 className='text-[24px] font-normal mt-[-40px] text-white gradient-text'>
+      <h1 className='text-[24px] font-bold mt-[-40px] text-white gradient-text'>
         SITEMAP
       </h1>
       <div className=''>
-        <ul className='text-white flex gap-4 text-[13px]'>
+        <ul className='text-white flex gap-4 text-[13px] font-poppins'>
           <li>Home</li>
           <li>IDO</li>
           <li>Tokenomics</li>

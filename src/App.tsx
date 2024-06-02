@@ -8,11 +8,11 @@ import Intro from "./pages/Intro";
 import Roadmap from "./pages/Roadmap";
 import Tokenomics from "./pages/Tokenomics";
 
+
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
-      {/* <AllRoutes/> */}
+     
       <Home/>
       <Intro/>
       <IDO/>

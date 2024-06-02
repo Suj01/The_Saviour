@@ -8,10 +8,10 @@ const Intro: React.FC = () => {
     <>
       <div className="bg-black flex">
         <div className="text-start ml-[163px] py-[89px] flex flex-col gap-4">
-          <h1 className="text-[#ED0137] text-[44px] font-normal">
+          <h1 className="text-[#ED0137] text-[44px] font-normal font-shojumaru">
             INTRODUCTION
           </h1>
-          <p className="text-white text-[24px] font-normal">
+          <p className="text-white text-[24px] font-normal font-zcoolkuaile">
             We've all been in the mud once, and now we've <br /> decided to
             fight it out. <br />
             Pay tribute to those pioneers of WEB3 and the <br /> warriors who
@@ -22,7 +22,7 @@ const Intro: React.FC = () => {
             succeed. <br />
             <span className="text-slate-600">read more...</span>
           </p>
-          <button className="w-[127px] h-[38px] mr-[90px] rounded-3xl text-white bg-gradient-to-r from-[#ED0137] to-[#F05733]">
+          <button className="w-[127px] h-[38px] mr-[90px] rounded-3xl text-white bg-gradient-to-r from-[#ED0137] to-[#F05733] font-poppins">
             Documents
           </button>
         </div>
