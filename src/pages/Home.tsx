@@ -26,7 +26,7 @@ const Home: React.FC = () => {
           </div>
           <div>
             <Navbar />
-            <AllRoutes />
+            {/* <AllRoutes /> */}
           </div>
           <button className="w-[127px] h-[38px] mr-[90px] rounded-3xl text-white bg-gradient-to-r from-[#ED0137] to-[#F05733]">
             Connect wallet
