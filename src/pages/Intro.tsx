@@ -1,7 +1,9 @@
-import React from "react";
-import intoImage from "../assets/Hero-image-2.png";
 
-const Intro = () => {
+
+import React from "react";
+import introImage from "../assets/Hero-image-2.png";
+
+const Intro: React.FC = () => {
   return (
     <>
       <div className="bg-black flex">
@@ -25,9 +27,9 @@ const Intro = () => {
           </button>
         </div>
         <img
-          src={intoImage}
+          src={introImage}
           alt="introImage"
-          className=" w-[795px] h-[795px] mt-[-77px]"
+          className="w-[795px] h-[795px] mt-[-77px]"
         />
       </div>
     </>

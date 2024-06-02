@@ -1,15 +1,17 @@
+
+
 import React from "react";
 import Navbar from "../routes/Navbar";
 import logo from "../assets/savior-logo.svg";
 import bgImage from "../assets/Hero-Image-1.png";
 import AllRoutes from "../routes/AllRoutes";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <>
       <div
         style={{ backgroundImage: `url(${bgImage})` }}
-        className=" h-[588px] bg-cover"
+        className="h-[588px] bg-cover"
       >
         <div className="flex justify-between items-center bg-cover bg-center">
           <div className="flex justify-center items-center">
@@ -24,7 +26,7 @@ const Home = () => {
           </div>
           <div>
             <Navbar />
-            <AllRoutes/>
+            <AllRoutes />
           </div>
           <button className="w-[127px] h-[38px] mr-[90px] rounded-3xl text-white bg-gradient-to-r from-[#ED0137] to-[#F05733]">
             Connect wallet

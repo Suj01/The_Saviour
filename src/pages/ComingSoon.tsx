@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const ComingSoon = () => {
+const ComingSoon: React.FC = () => {
   return (
     <div>
       comingSoon
     </div>
-  )
-}
+  );
+};
 
-export default ComingSoon
+export default ComingSoon;
