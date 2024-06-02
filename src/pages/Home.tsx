@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from "../routes/Navbar";
 import logo from "../assets/savior-logo.svg";
 import bgImage from "../assets/Hero-Image-1.png";
-import AllRoutes from "../routes/AllRoutes";
+
 
 const Home: React.FC = () => {
   return (
