@@ -1,16 +1,4 @@
-// import React from 'react'
 
-// const IDO = () => {
-//   return (
-//     <>
-//    IDO
-//     </>
-//   )
-// }
-
-// export default IDO
-
-// import "./IDOEvent.css";
 import timer from '../assets/Timer.png'
 import copy from '../assets/copy-icon.png'
 import idoBgImage from "../assets/Hero-image-5.png"

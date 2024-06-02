@@ -10,7 +10,6 @@ const Footer = () => {
     <>
   <div className='h-[428px] bg-black flex flex-col justify-center items-center gap-4'>
 <img src={footerImg} alt="FooterImg" className='w-[200px] h-[183px]'/>
-{/* <h1 className='text-white text-[24px] font-normal mt-[-40px]'>SITEMAP</h1> */}
 <h1 className="text-[24px] font-normal mt-[-40px] text-white gradient-text">
   SITEMAP
 </h1>

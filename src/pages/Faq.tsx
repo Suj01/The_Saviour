@@ -1,27 +1,4 @@
-// import React from 'react'
-// import faqImg from "../assets/FAQ-image.png"
 
-// const Faq = () => {
-//   return (
-//     <>
-//       <div className='flex bg-black'>
-//         <img src={faqImg} alt="" className='w-[503px] h-[503px] ml-[67px] mt-[]'/>
-//         <div className='w-[640px]'>
-//           <h1 className='text-[#ED0137] text-[44px] font-normal text-center'>FAQ</h1>
-//           <div className=''>
-//             <ul>
-//               <li>
-//                 <label htmlFor=""></label>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default Faq
 
 
 import React, { useState } from "react";
